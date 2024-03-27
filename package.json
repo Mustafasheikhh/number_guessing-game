@@ -1,0 +1,23 @@
+{
+  "name": "@mustafatariq/number_guessing_game",
+  "version": "2.0.1",
+  "description": "A Simple CLI Number Guessing Game",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mustafa Tariq",
+  "license": "MIT",
+  "dependencies": {
+    "@mustafatariq/number_guessing_game": "^2.0.1",
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
